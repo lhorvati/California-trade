@@ -12,8 +12,9 @@
 
     %link(rel="stylesheet" href="css/main.css")
     %link(rel="stylesheet" href="css/query.css")
+    %link(rel="stylesheet" href="css/img-slider.css")
     / Lightbox
-    %link(rel="stylesheet" href="lightbox/css/lightbox.css")
+    %link(rel="stylesheet" href="src/lightbox/css/lightbox.css")
     / Fonts
     %link(href="https://fonts.googleapis.com/css?family=Montserrat:500,700,900|Open+Sans|Raleway:400,500,900&subset=latin-ext" rel="stylesheet")/
 
@@ -69,6 +70,21 @@
         We offer <span>the best</span> glass products
         %br/
         with highest <span>quality</span>
+
+      %ul.cb-slideshow
+        %li
+          %span Image 01
+        %li
+          %span Image 02
+        %li
+          %span Image 03
+        %li
+          %span Image 04
+        %li
+          %span Image 05
+        %li
+          %span Image 06
+
 
 
 
@@ -244,7 +260,7 @@
         %h1.title Vetropack
         %span.redline
         %p Vetropack Straža d.d. proizvodi, prodaje i distribuira staklenu ambalažu na tržištima Hrvatske, Slovenije, Bosne i Hercegovine, Srbije, Crne Gore, Makedonije, kao i na tržištima ostalih zemalja jugoistočne Europe. Tvornica se nalazi u Humu na Sutli.
-        %a.btn.btn--white(href="http://www.vetropack.hr/hr/") Vetropack.hr
+        %a.btn.btn--white(href="http://www.vetropack.hr/hr/" target="_blank") Vetropack.hr
 
 
 
@@ -330,3 +346,4 @@
 
 %script(src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript")
 %script(src="js/script.js" type="text/javascript")
+%script(src="src/lightbox/js/lightbox.js")

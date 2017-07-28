@@ -10,7 +10,7 @@
     <link href="css/main.css" rel="stylesheet">
     <link href="css/query.css" rel="stylesheet">
     <!-- Lightbox -->
-    <link href="lightbox/css/lightbox.css" rel="stylesheet">
+    <link href="src/lightbox/css/lightbox.css" rel="stylesheet">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,500,700,900|Open+Sans|Raleway:400,500,900&amp;subset=latin-ext" rel="stylesheet">
   </head>
@@ -138,52 +138,52 @@
         <div class="section-row">
           <div class="gallery">
             <!-- 1 -->
-            <a class="gallery-item" href="#">
+            <a class="gallery-item" data-lightbox="gallery1" data-title="My caption" href="img/gallery/hero-bg1.jpg">
               <div class="gallery__img"></div>
               <span class="gallery__label">Slika neki naziv</span>
             </a>
             <!-- 2 -->
-            <a class="gallery-item" href="#">
+            <a class="gallery-item" data-lightbox="gallery1" data-title="My caption" href="img/gallery/hero-bg2.jpg">
               <div class="gallery__img"></div>
               <span class="gallery__label">Slika neki naziv</span>
             </a>
             <!-- 3 -->
-            <a class="gallery-item" href="#">
+            <a class="gallery-item" data-lightbox="gallery1" data-title="My caption" href="img/gallery/hero-bg3.jpg">
               <div class="gallery__img"></div>
               <span class="gallery__label">Slika neki naziv</span>
             </a>
             <!-- 4 -->
-            <a class="gallery-item" href="#">
+            <a class="gallery-item" data-lightbox="gallery1" data-title="My caption" href="img/gallery/hero-bg4.jpg">
               <div class="gallery__img"></div>
               <span class="gallery__label">Slika neki naziv</span>
             </a>
             <!-- 5 -->
-            <a class="gallery-item" href="#">
+            <a class="gallery-item" data-lightbox="gallery1" data-title="My caption" href="img/gallery/hero-bg5.jpg">
               <div class="gallery__img"></div>
               <span class="gallery__label">Slika neki naziv</span>
             </a>
             <!-- 6 -->
-            <a class="gallery-item" href="#">
+            <a class="gallery-item" data-lightbox="gallery1" data-title="My caption" href="img/gallery/hero-bg1.jpg">
               <div class="gallery__img"></div>
               <span class="gallery__label">Slika neki naziv</span>
             </a>
             <!-- 7 -->
-            <a class="gallery-item" href="#">
+            <a class="gallery-item" data-lightbox="gallery1" data-title="My caption" href="img/gallery/hero-bg1.jpg">
               <div class="gallery__img"></div>
               <span class="gallery__label">Slika neki naziv</span>
             </a>
             <!-- 8 -->
-            <a class="gallery-item" href="#">
+            <a class="gallery-item" data-lightbox="gallery1" data-title="My caption" href="img/gallery/hero-bg1.jpg">
               <div class="gallery__img"></div>
               <span class="gallery__label">Slika neki naziv</span>
             </a>
             <!-- 9 -->
-            <a class="gallery-item" href="#">
+            <a class="gallery-item" data-lightbox="gallery1" data-title="My caption" href="img/gallery/hero-bg1.jpg">
               <div class="gallery__img"></div>
               <span class="gallery__label">Slika neki naziv</span>
             </a>
             <!-- 10 -->
-            <a class="gallery-item" href="#">
+            <a class="gallery-item" data-lightbox="gallery1" data-title="My caption" href="img/gallery/hero-bg1.jpg">
               <div class="gallery__img"></div>
               <span class="gallery__label">Slika neki naziv</span>
             </a>
@@ -197,7 +197,7 @@
         <h1 class="title">Vetropack</h1>
         <span class="redline"></span>
         <p>Vetropack Straža d.d. proizvodi, prodaje i distribuira staklenu ambalažu na tržištima Hrvatske, Slovenije, Bosne i Hercegovine, Srbije, Crne Gore, Makedonije, kao i na tržištima ostalih zemalja jugoistočne Europe. Tvornica se nalazi u Humu na Sutli.</p>
-        <a class="btn btn--white" href="http://www.vetropack.hr/hr/">Vetropack.hr</a>
+        <a class="btn btn--white" href="http://www.vetropack.hr/hr/" target="_blank">Vetropack.hr</a>
       </div>
     </div>
     <!-- MAP SECTION ************************************** -->
@@ -319,3 +319,6 @@
     </div>
   </body>
 </html>
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="js/script.js" type="text/javascript"></script>
+<script src="src/lightbox/js/lightbox.js"></script>
