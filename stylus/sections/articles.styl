@@ -43,7 +43,10 @@
         align-items: flex-start
         margin-top: 50px
 
-        /* Article */
+        &.category-list
+            justify-content: space-between
+
+        /* Article item */
         .article-item
             position: relative
             width: 200px
@@ -104,3 +107,18 @@
                 margin: 14px 0
 
 
+        /* Category item */
+        .article-item.category-item
+            width: 300px
+            margin-right: 0
+            margin-bottom: 80px
+            min-height: auto
+
+            .article-item__img,
+            .article-item__img img,
+            .article-item__overlay
+                width: 300px
+                height: 200px
+
+            .article-item__img img
+                object-fit: cover
